@@ -1,0 +1,28 @@
+{
+  "name": "DataAnalytics",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "sqltools.connections": [
+      {
+        "name": "Container database",
+        "driver": "PostgreSQL",
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 5432,
+        "database": "myappdb",
+        "username": "myappuser",
+        "password": "mypassword"
+      }
+    ]
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg"
+  ],
+  "forwardPorts": [5432],
+  "postCreateCommand": "mvn install",
+  "remoteUser": "vscode"
+}

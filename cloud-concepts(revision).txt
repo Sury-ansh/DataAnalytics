@@ -1,0 +1,7 @@
+AWS glacier---- disaster recovery
+Amazon workspace---- virtual windows.
+Saas--- dropbox, ms 365, salesforce (Daas--- desktop as service (amazon workspace)
+iaas--- amazon ec2 (dev and test environment)
+paas--- elastic bean stalks  
+cloud is based on SOA and Event driven  architecture 
+soa and microservices are both different things (soa is broad services and other is fine grain service)

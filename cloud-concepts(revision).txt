@@ -5,3 +5,10 @@ iaas--- amazon ec2 (dev and test environment)
 paas--- elastic bean stalks  
 cloud is based on SOA and Event driven  architecture 
 soa and microservices are both different things (soa is broad services and other is fine grain service)
+amazon s3--- simple storage service help to store and retrive anything
+amazon rds--- unlike s3 it help to accomodate services like mysql or postgresql
+amazon cloud watch--- monitoring tools
+cloud deployment model (private, public, hybrid, multi-hybrid)
+cloud virtualization--- abstract physical hardware and provide user what they need 
+virtualization is creation of vm by simulating resources and indvidual os  ---  vs containerization is packaging the app and its dependency with shared os
+amazon ELB--- elastic load balancer 
